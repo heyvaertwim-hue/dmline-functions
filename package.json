@@ -1,0 +1,11 @@
+{
+  "name": "dmline-functions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  }
+}
