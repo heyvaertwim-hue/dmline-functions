@@ -19,7 +19,7 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Azure Login (Service Principal)
         uses: azure/login@v1
@@ -31,4 +31,5 @@ jobs:
         with:
           app-name: DMline
           package: .
+
 
