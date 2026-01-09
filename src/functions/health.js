@@ -6,7 +6,7 @@ app.http("health", {
   handler: async () => {
     return {
       status: 200,
-      body: "OK"
+      body: "OK - DM Line Function is LIVE via GitHub 🚀"
     };
   }
 });
